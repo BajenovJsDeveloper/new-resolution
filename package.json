@@ -2,15 +2,18 @@
   "name": "check-resolution",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel"
+    "start": "parcel",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "parcel": "^2.0.0"
   }
 }
