@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "homepage": "https://bajenovjsdeveloper.github.io/resolution",
+  "homepage": "https://BajenovJsDeveloper.github.io/resolution.git",
   "scripts": {
     "start": "parcel",
     "build": "parcel build src/index.html --public-url /resolution/",
