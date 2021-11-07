@@ -1,12 +1,12 @@
 {
-  "name": "check-resolution",
+  "name": "resolution",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
-  "homepage": "https://BajenovJsDeveloper.github.io/resolution.git",
+  "homepage": "https://BajenovJsDeveloper.github.io/resolution",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build src/index.html --public-url /resolution/",
+    "build": "parcel build src/index.html --public-url ./",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
