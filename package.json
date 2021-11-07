@@ -4,16 +4,11 @@
   "description": "",
   "source": "src/index.html",
   "homepage": "https://bajenovjsdeveloper.github.io/resolution",
-  "main": "main.js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build src/index.html --public-url /resolution/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bajenovjsdeveloper/resolution.git"
   },
   "keywords": [],
   "author": "",
