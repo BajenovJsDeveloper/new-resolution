@@ -10,6 +10,10 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajenovjsdeveloper/resolution.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
